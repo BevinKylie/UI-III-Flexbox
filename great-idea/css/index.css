@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,57 +15,48 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
-
 body {
-	line-height: 1;
+    line-height: 1;
 }
-
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
-
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
 * {
   box-sizing: border-box;
 }
-
 html, body {
   height: 100%;
   font-family: 'Titillium Web', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
   margin-bottom: 5px;
   margin-top:15px;
 }
-
 header {
   width: 100%;
   height:70px;
@@ -79,65 +69,53 @@ header {
   left:0;
   box-shadow: 0px 2px 6px #000000;
 }
-
 .section {
   display: inline-block;
 }
-
 .header a {
   width: 100%;
   margin-left:5%;
   color:white;
 }
-
 .header:after {
   display: inline-block;
   width: 100%;
   content: '';
 }
-
 .header-img {
   margin-top: 60px;
 }
-
 .services-header-img {
-	display: inline-block;
-	margin-top: 20px;
-	width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
 }
-
 .middle-img {
   display: inline-block;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%;
 }
-
 .main {
   width: 100%;
 }
-
 .text-main {
   width: 49%;
   display: inline-block;
   text-align:center;
 }
-
 .img { 
   width: 49%;
   display: inline-block;
 }
-
 body {
   margin: 60px;
 }
-
 h1 {
   font-size: 60px;
   display: inline;
   margin-bottom: 2em;
 }
-
 .box {
   background: white;
   border: 1px solid black;
@@ -148,131 +126,145 @@ h1 {
   width: 150px;
   height: 100px;
 }
-
 .box2 {
-	background: white;
-	border: 1px solid black;
-	padding: 3px;
-	padding-left: 30px;
-	padding-right: 30px;
-	/* Box Model: Content Area */
-	width: 150px;
-	height: 100px;
-	border-radius: 5px;
-	display: flex;
-	flex-direction: row;
-
+    background: white;
+    border: 1px solid black;
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* Box Model: Content Area */
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-
 .features {
   width: 49%;
   display: inline-block;
   text-align:left;
 }
-
 .about {
   width: 49%;
   display: inline-block;
   text-align:left;
 }
-
 .services {
   width: 33%;
   display: inline-block;
   text-align:left;
   padding: 10px;
 }
-
 .product {
   width: 33%;
   display: inline-block;
   text-align:left;
   padding: 10px;
 }
-
 .vision {
   width: 33%;
   display: inline-block;
   text-align:left;
   padding: 10px;
 }
-
 .flex-container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    width: 95%;
+    padding: 20px;
   }
-
+.flex-container h2 {
+    margin-bottom: 25px;
+}
+.flex-container p {
+    margin-bottom: 20px;
+}
+.flex-container ul {
+    padding-left: 15px;
+}
+.flex-container li {
+    margin-top: 10px;
+}
+.bottom-box {
+    width: 46%;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+}
   .main-content {
-	margin: 25px 0;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: center;
-	border-radius: 5px;
+    margin: 25px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    border-radius: 5px;
    }
-
    .main-content div {
-	width: 45%;
-	height: 200px;
-	margin-bottom: 30px;
-	border: 2px solid black;
-	background-color: lightgrey;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: center;
-	border-radius: 5px;
+    width: 45%;
+    height: 200px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+    border-radius: 5px;
+    padding-left: 15px;
    }
   
   .digitaldesign {
-	width: 49%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	text-align: left;
-	border: 2px solid black; 
-	padding: 20px;
-	line-height: 20px;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    border: 2px solid black; 
+    padding: 20px;
+    line-height: 20px;
   }
   
   .nobox {
-	width: 49%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	line-height: 20px;
-	padding: 200px;}
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 20px;
+    padding: 200px;}
   
   .uxui {
-	width: 49%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	text-align: left;
-	border: 2px solid black; 
-	padding: 20px;
-	line-height: 20px;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    border: 2px solid black; 
+    padding: 20px;
+    line-height: 20px;
   }
   
   hr {
-	background-color: #000;
-	height: 2px;
-	border: none;
-	margin-bottom: 1em;
-  	margin-top: 2em;}
+    background-color: #000;
+    height: 2px;
+    border: none;
+    margin-bottom: 1em;
+    margin-top: 2em;}
   
   .footer{
-	display: inline;
-	line-height: 3px;
+    display: inline;
+    line-height: 3px;
   }
   
   .copyright{
-	text-align: center;
-	margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
   }
